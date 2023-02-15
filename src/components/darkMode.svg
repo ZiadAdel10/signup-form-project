@@ -1,0 +1,12 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="51" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur>
+    </filter>
+  </defs>
+  <g filter="url(#bbblurry-filter)">
+    <ellipse rx="241" ry="129" cx="330.0737425848813" cy="163.24189793707978" fill="hsl(37, 99%, 67%)"></ellipse>
+    <ellipse rx="241" ry="129" cx="760.9082082476717" cy="301.5780456858198" fill="hsl(316, 73%, 52%)"></ellipse>
+    <ellipse rx="241" ry="129" cx="78.93906291784799" cy="451.07909690312624" fill="hsl(185, 100%, 57%)"></ellipse>
+  </g>
+</svg>
